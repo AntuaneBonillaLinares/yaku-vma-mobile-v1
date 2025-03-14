@@ -1,21 +1,38 @@
-# Android Studio files
+# ------------------------------
+# Android Studio / IntelliJ Files
+# ------------------------------
 *.iml
 .idea/
+.idea/gradle.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/httpRequests/
 .gradle/
 local.properties
 
-# Build and generated files
+# Keep only essential .idea files
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+
+# ------------------------------
+# Build / Output / Cache
+# ------------------------------
 /build/
 **/build/
 **/generated/
 **/intermediates/
 **/outputs/
-captures/
 .externalNativeBuild/
 .cxx/
+captures/
 
-# System and user files
+# ------------------------------
+# System / OS / Editor Files
+# ------------------------------
 .DS_Store
+Thumbs.db
 *.log
 *.tmp
 *.orig
@@ -23,16 +40,22 @@ captures/
 *.swp
 *.swo
 
-# Local database files
+# ------------------------------
+# Database files (local dev only)
+# ------------------------------
 *.db
 *.db-shm
 *.db-wal
 
-# Keystore and signing keys
+# ------------------------------
+# Signing / Keystore
+# ------------------------------
 *.jks
 *.keystore
 
-# APK and library files
+# ------------------------------
+# APKs / Artifacts / Binaries
+# ------------------------------
 *.apk
 *.ap_
 *.aar
@@ -40,14 +63,36 @@ captures/
 *.so
 *.kotlin_metadata
 
-# IntelliJ IDEA files
+# ------------------------------
+# IntelliJ Project Files (legacy)
+# ------------------------------
 *.ipr
 *.iws
 
-# Test results
+# ------------------------------
+# Test Results / Coverage
+# ------------------------------
 test-*.xml
+*.ec
+coverage/
+coverage-results/
 
-# Keep only essential .idea files
-!.idea/misc.xml
-!.idea/modules.xml
-!.idea/vcs.xml
+# ------------------------------
+# Kotlin / Gradle Specific
+# ------------------------------
+.kts.cache/
+.gradle/gradle.properties
+
+# ------------------------------
+# Local Environment & IDE settings
+# ------------------------------
+.idea/caches/
+.idea/libraries/
+.idea/modules/
+.idea/assetWizardSettings.xml
+
+# ------------------------------
+# Miscellaneous
+# ------------------------------
+*.class
+*.hprof
