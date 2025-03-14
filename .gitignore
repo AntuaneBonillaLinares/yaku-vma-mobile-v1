@@ -1,15 +1,53 @@
+# Android Studio files
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+.gradle/
 local.properties
+
+# Build and generated files
+/build/
+**/build/
+**/generated/
+**/intermediates/
+**/outputs/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# System and user files
+.DS_Store
+*.log
+*.tmp
+*.orig
+*.bak
+*.swp
+*.swo
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+
+# Keystore and signing keys
+*.jks
+*.keystore
+
+# APK and library files
+*.apk
+*.ap_
+*.aar
+*.dex
+*.so
+*.kotlin_metadata
+
+# IntelliJ IDEA files
+*.ipr
+*.iws
+
+# Test results
+test-*.xml
+
+# Keep only essential .idea files
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
