@@ -8,11 +8,12 @@
 .idea/tasks.xml
 .idea/dictionaries/
 .idea/httpRequests/
+!.idea/codeStyles/
+!.idea/runConfigurations/
 .gradle/
 local.properties
 
 # Keep only essential .idea files
-!.idea/misc.xml
 !.idea/modules.xml
 !.idea/vcs.xml
 
