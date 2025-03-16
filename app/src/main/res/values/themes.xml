@@ -1,9 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Tema base de la app -->
     <style name="Base.Theme.Yaku_vma" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/btn_principal</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+        <item name="colorSecondary">@color/principal</item>
     </style>
 
+    <!-- Tema que se aplica en AndroidManifest -->
     <style name="Theme.Yaku_vma" parent="Base.Theme.Yaku_vma" />
 </resources>

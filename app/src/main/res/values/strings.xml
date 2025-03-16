@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">yaku_vma</string>
+    <string name="app_name">Yaku VMA</string>
+    <string name="eslogan">SERVICIOS GENERALES</string>
+    <string name="eslogan_2">VMA</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="login_1">Ingresar Identificación</string>
+    <string name="login_2">Ingresar Contraseña</string>
+    <string name="login_3">Recordar credenciales</string>
+    <string name="nav1">Inicio</string>
+    <string name="nav2">Buscar</string>
+    <string name="nav3">Ajustes</string>
+
+
+    <string name="app_">Cambiar modo de conexión</string>
+    <string name="app">Yaku VMA</string>
+    <string name="ap">Yaku VMA</string>
+    <string name="profile_1">Nombre</string>
+    <string name="profile_2">Manual de uso</string>
+    <string name="profile_3">Contacto</string>
+    <string name="profile_4">Políticas de Privacidad</string>
+    <string name="profile_5">Cambiar modo de conexión</string>
+
+
+    <string name="logout">Cerrar Sesión</string>
+
+
+
 </resources>

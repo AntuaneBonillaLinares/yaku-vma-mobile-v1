@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="principal">#00337C</color>
+    <color name="secundario">#06B9E7</color>
+    <color name="eslogan">#808080</color>
+
+    <color name="fondo_navbar">#5aa9e6</color>
+    <color name="nav_activo">#001F54</color>
+    <color name="nav_inactivo">#CAF0F8</color>
+
+    <color name="btn_principal">#F72A4A</color>
+    <color name="btn_efecto">#93032E</color>
+    <color name="btn_editar">#E4CC23</color>
+    <color name="emergente_principal">#FA6E6E</color>
+    <color name="emergente_boton">#93032E</color>
+
 </resources>
