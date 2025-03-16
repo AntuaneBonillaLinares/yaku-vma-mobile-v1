@@ -10,8 +10,15 @@
     <color name="nav_activo">#001F54</color>
     <color name="nav_inactivo">#CAF0F8</color>
 
-    <color name="btn_principal">#F72A4A</color>
-    <color name="btn_efecto">#93032E</color>
+    <color name="btn_generar">#04471c</color>
+    <color name="btn_generare">#9ef01a</color>
+    <color name="btn_insertar">#001F54</color>
+    <color name="btn_insertare">#5aa9e6</color>
+
+
+
+    <color name="btn_efecto">#F72A4A</color>
+    <color name="btn_principal">#93032E</color>
     <color name="btn_editar">#E4CC23</color>
     <color name="emergente_principal">#FA6E6E</color>
     <color name="emergente_boton">#93032E</color>
