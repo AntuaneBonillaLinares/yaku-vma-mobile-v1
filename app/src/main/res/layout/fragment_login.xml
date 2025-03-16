@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,23 +19,23 @@
             android:id="@+id/logo_completo"
             android:layout_width="260dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginBottom="100dp"
             android:adjustViewBounds="true"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/logo_completo"
-            android:layout_gravity="center_horizontal" />
+            android:src="@drawable/logo_completo" />
 
         <TextView
             android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginBottom="35dp"
             android:fontFamily="sans-serif-medium"
             android:text="@string/login"
             android:textColor="@color/negro"
             android:textSize="28sp"
-            android:layout_gravity="center_horizontal"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/correo"
@@ -44,63 +45,63 @@
             android:text="@string/login_1"
             android:textColor="@color/negro"
             android:textSize="14sp" />
+
         <EditText
             android:id="@+id/inCorreo"
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/campo_text"
+            android:drawableEnd="@drawable/id_card"
             android:hint="ejemplo@"
             android:inputType="textEmailAddress"
-            android:drawableEnd="@drawable/id_card"
-            android:background="@drawable/campo_text"
-            android:paddingHorizontal="16dp"
-            android:layout_marginBottom="20dp" />
+            android:paddingHorizontal="16dp" />
 
         <TextView
             android:id="@+id/contrasena"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="@string/login_2"
-            android:textSize="14sp"
             android:textColor="@color/negro"
-            android:layout_marginBottom="8dp" />
+            android:textSize="14sp" />
 
         <EditText
             android:id="@+id/inContrasena"
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/campo_text"
+            android:drawableEnd="@drawable/visibility_off"
             android:hint="********"
             android:inputType="textPassword"
-            android:drawableEnd="@drawable/visibility_off"
-            android:background="@drawable/campo_text"
-            android:paddingHorizontal="16dp"
-            android:layout_marginBottom="24dp" />
+            android:paddingHorizontal="16dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_marginBottom="24dp"
             android:gravity="start|center_vertical"
-            android:layout_marginBottom="24dp">
+            android:orientation="horizontal">
 
             <CheckBox
                 android:id="@+id/recordar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/eslogan"
+                android:fontFamily="sans-serif"
                 android:text="@string/login_3"
                 android:textColor="@color/eslogan"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif"
-                android:buttonTint="@color/eslogan" />
+                android:textSize="14sp" />
         </LinearLayout>
 
         <Button
             android:id="@+id/btnIniciarSesion"
             style="@style/btn_principal"
             android:drawableEnd="@drawable/login"
-            android:text="@string/login"
             android:paddingHorizontal="24dp"
-            android:layout_width="match_parent"
-            android:layout_height="48dp" />
+            android:text="@string/login"
+            app:backgroundTint="@null" />
 
     </LinearLayout>
 </ScrollView>

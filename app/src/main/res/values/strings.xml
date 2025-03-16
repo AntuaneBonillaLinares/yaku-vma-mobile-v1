@@ -7,8 +7,27 @@
     <string name="login_2">Ingresar Contraseña</string>
     <string name="login_3">Recordar credenciales</string>
     <string name="nav1">Inicio</string>
-    <string name="nav2">Buscar</string>
+    <string name="nav2">Buscar</string>s
     <string name="nav3">Ajustes</string>
+    <string name="home_1">👋 ¡Hola, Inspector!\n<font color="#395E99">Estás viendo las actas generadas.</font></string>
+
+
+    <string name="home_2">Generar Acta</string>
+    <string name="home_3">Insertar Registro</string>
+    <string name="home_4">Actas Generadas</string>
+    <string name="home_5">Ajustes</string>
+
+    <string name="acta_1">Ajustes</string>
+    <string name="acta_2">Ajustes</string>
+    <string name="acta_3">Ajustes</string>
+    <string name="acta_4">Ajustes</string>
+    <string name="acta_5">Ajustes</string>
+    <string name="acta_6">Ajustes</string>
+    <string name="acta_7">Ajustes</string>
+    <string name="acta_8">Ajustes</string>
+    <string name="acta_9">Ajustes</string>
+    <string name="acta_10">Ajustes</string>
+
 
 
     <string name="app_">Cambiar modo de conexión</string>
@@ -22,7 +41,6 @@
 
 
     <string name="logout">Cerrar Sesión</string>
-
 
 
 </resources>
