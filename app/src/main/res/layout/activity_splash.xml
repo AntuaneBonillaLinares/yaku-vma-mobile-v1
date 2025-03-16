@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blanco"
+    tools:context=".presentation.view.auth.SplashActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/yaku_logo2"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logotipo"
+            android:layout_width="194dp"
+            android:layout_height="89dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/nombre" />
+
+        <TextView
+            android:id="@+id/logotipo_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:text="@string/eslogan_2"
+            android:textColor="@color/negro"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/eslogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/eslogan"
+        android:textAlignment="center"
+        android:textColor="@color/eslogan"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
